@@ -23,6 +23,7 @@
 /* Begin PBXBuildFile section */
 		2E1F5C042661F82B0093521A /* Sansuu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1F5BF62661F82B0093521A /* Sansuu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E1F5C0E2661F83A0093521A /* Sansuu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5C0D2661F83A0093521A /* Sansuu.swift */; };
+		2E1F5C3126634F8A0093521A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5C3026634F8A0093521A /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2E1F5BF62661F82B0093521A /* Sansuu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sansuu.h; sourceTree = "<group>"; };
 		2E1F5BF72661F82B0093521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E1F5C0D2661F83A0093521A /* Sansuu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sansuu.swift; sourceTree = "<group>"; };
+		2E1F5C3026634F8A0093521A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		2E1F5BE92661F82A0093521A = {
 			isa = PBXGroup;
 			children = (
+				2E1F5C3026634F8A0093521A /* Package.swift */,
 				2E1F5BF52661F82B0093521A /* Sansuu */,
 				2E1F5BF42661F82B0093521A /* Products */,
 			);
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1F5C3126634F8A0093521A /* Package.swift in Sources */,
 				2E1F5C0E2661F83A0093521A /* Sansuu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
