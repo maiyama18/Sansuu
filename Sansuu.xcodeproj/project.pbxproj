@@ -6,29 +6,30 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2E1F5BFD2661F82B0093521A /* Sansuu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1F5BF32661F82B0093521A /* Sansuu.framework */; };
-		2E1F5C022661F82B0093521A /* SansuuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5C012661F82B0093521A /* SansuuTests.swift */; };
-		2E1F5C042661F82B0093521A /* Sansuu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1F5BF62661F82B0093521A /* Sansuu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2E1F5BFE2661F82B0093521A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E1F5BEA2661F82A0093521A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E1F5BF22661F82B0093521A;
-			remoteInfo = Sansuu;
+/* Begin PBXAggregateTarget section */
+		2E1F5C1F266345570093521A /* XCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2E1F5C20266345570093521A /* Build configuration list for PBXAggregateTarget "XCFramework" */;
+			buildPhases = (
+				2E1F5C23266345620093521A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = XCFramework;
+			productName = XCFramework;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2E1F5C042661F82B0093521A /* Sansuu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1F5BF62661F82B0093521A /* Sansuu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1F5C0E2661F83A0093521A /* Sansuu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1F5C0D2661F83A0093521A /* Sansuu.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E1F5BF32661F82B0093521A /* Sansuu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sansuu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1F5BF62661F82B0093521A /* Sansuu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sansuu.h; sourceTree = "<group>"; };
 		2E1F5BF72661F82B0093521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E1F5BFC2661F82B0093521A /* SansuuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SansuuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1F5C012661F82B0093521A /* SansuuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SansuuTests.swift; sourceTree = "<group>"; };
-		2E1F5C032661F82B0093521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1F5C0D2661F83A0093521A /* Sansuu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sansuu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,14 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1F5BF92661F82B0093521A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1F5BFD2661F82B0093521A /* Sansuu.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				2E1F5BF52661F82B0093521A /* Sansuu */,
-				2E1F5C002661F82B0093521A /* SansuuTests */,
 				2E1F5BF42661F82B0093521A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				2E1F5BF32661F82B0093521A /* Sansuu.framework */,
-				2E1F5BFC2661F82B0093521A /* SansuuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,17 +64,9 @@
 			children = (
 				2E1F5BF62661F82B0093521A /* Sansuu.h */,
 				2E1F5BF72661F82B0093521A /* Info.plist */,
+				2E1F5C0D2661F83A0093521A /* Sansuu.swift */,
 			);
 			path = Sansuu;
-			sourceTree = "<group>";
-		};
-		2E1F5C002661F82B0093521A /* SansuuTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E1F5C012661F82B0093521A /* SansuuTests.swift */,
-				2E1F5C032661F82B0093521A /* Info.plist */,
-			);
-			path = SansuuTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,24 +101,6 @@
 			productReference = 2E1F5BF32661F82B0093521A /* Sansuu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2E1F5BFB2661F82B0093521A /* SansuuTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E1F5C0A2661F82B0093521A /* Build configuration list for PBXNativeTarget "SansuuTests" */;
-			buildPhases = (
-				2E1F5BF82661F82B0093521A /* Sources */,
-				2E1F5BF92661F82B0093521A /* Frameworks */,
-				2E1F5BFA2661F82B0093521A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E1F5BFF2661F82B0093521A /* PBXTargetDependency */,
-			);
-			name = SansuuTests;
-			productName = SansuuTests;
-			productReference = 2E1F5BFC2661F82B0093521A /* SansuuTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +112,9 @@
 				TargetAttributes = {
 					2E1F5BF22661F82B0093521A = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
-					2E1F5BFB2661F82B0093521A = {
+					2E1F5C1F266345570093521A = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -167,7 +133,7 @@
 			projectRoot = "";
 			targets = (
 				2E1F5BF22661F82B0093521A /* Sansuu */,
-				2E1F5BFB2661F82B0093521A /* SansuuTests */,
+				2E1F5C1F266345570093521A /* XCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -180,40 +146,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1F5BFA2661F82B0093521A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1F5C23266345620093521A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "OUTPUT_DIR=${PROJECT_DIR}/Output\nDERIVED_DIR=${OUTPUT_DIR}/${CONFIGURATION}-derived\nARCHIVE_DIR=${OUTPUT_DIR}/${CONFIGURATION}-archive\nXCFRAMEWORK_DIR=${OUTPUT_DIR}/${CONFIGURATION}-xcframework\n\nrm -rf ${OUTPUT_DIR}\nmkdir -p ${DERIVED_DIR}\nmkdir -p ${ARCHIVE_DIR}\nmkdir -p ${XCFRAMEWORK_DIR}\n\nARCHIVE_FILE_IOS=${ARCHIVE_DIR}/ios.xcarchive\necho \"ARCHIVE_FILE_IOS:${ARCHIVE_FILE_IOS}\"\nxcodebuild archive -scheme ${PROJECT_NAME} -destination=\"iOS\" -archivePath $ARCHIVE_FILE_IOS -derivedDataPath $DERIVED_DIR -sdk iphoneos SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nARCHIVE_FILE_IOS_SIMULATOR=${ARCHIVE_DIR}/iossimulator.xcarchive\necho \"ARCHIVE_FILE_IOS_SIMULATOR:${ARCHIVE_FILE_IOS_SIMULATOR}\"\nxcodebuild archive -scheme ${PROJECT_NAME} -destination=\"iOS Simulator\" -archivePath $ARCHIVE_FILE_IOS_SIMULATOR -derivedDataPath $DERIVED_DIR -sdk iphonesimulator SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild -create-xcframework -framework $ARCHIVE_FILE_IOS/Products/Library/Frameworks/${PROJECT_NAME}.framework -framework $ARCHIVE_FILE_IOS_SIMULATOR/Products/Library/Frameworks/${PROJECT_NAME}.framework -output $XCFRAMEWORK_DIR/${PROJECT_NAME}.xcframework\n\nopen ${XCFRAMEWORK_DIR}\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E1F5BEF2661F82B0093521A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2E1F5BF82661F82B0093521A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1F5C022661F82B0093521A /* SansuuTests.swift in Sources */,
+				2E1F5C0E2661F83A0093521A /* Sansuu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E1F5BFF2661F82B0093521A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E1F5BF22661F82B0093521A /* Sansuu */;
-			targetProxy = 2E1F5BFE2661F82B0093521A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2E1F5C052661F82B0093521A /* Debug */ = {
@@ -341,6 +305,7 @@
 		2E1F5C082661F82B0093521A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 56T4RFDKJR;
@@ -357,6 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.muijp.Sansuu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +331,7 @@
 		2E1F5C092661F82B0093521A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 56T4RFDKJR;
@@ -386,39 +353,21 @@
 			};
 			name = Release;
 		};
-		2E1F5C0B2661F82B0093521A /* Debug */ = {
+		2E1F5C21266345570093521A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56T4RFDKJR;
-				INFOPLIST_FILE = SansuuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muijp.SansuuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2E1F5C0C2661F82B0093521A /* Release */ = {
+		2E1F5C22266345570093521A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56T4RFDKJR;
-				INFOPLIST_FILE = SansuuTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.muijp.SansuuTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -443,11 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E1F5C0A2661F82B0093521A /* Build configuration list for PBXNativeTarget "SansuuTests" */ = {
+		2E1F5C20266345570093521A /* Build configuration list for PBXAggregateTarget "XCFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E1F5C0B2661F82B0093521A /* Debug */,
-				2E1F5C0C2661F82B0093521A /* Release */,
+				2E1F5C21266345570093521A /* Debug */,
+				2E1F5C22266345570093521A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
