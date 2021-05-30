@@ -1,0 +1,11 @@
+framework module Sansuu {
+  umbrella header "Sansuu.h"
+
+  export *
+  module * { export * }
+}
+
+module Sansuu.Swift {
+    header "Sansuu-Swift.h"
+    requires objc
+}

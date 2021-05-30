@@ -1,0 +1,7 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios14.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Sansuu
+@_exported import Sansuu
+import Swift
+public func add(_ n1: Swift.Int, _ n2: Swift.Int) -> Swift.Int
+public func subtract(_ n1: Swift.Int, _ n2: Swift.Int) -> Swift.Int
