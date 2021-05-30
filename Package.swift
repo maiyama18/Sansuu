@@ -12,9 +12,9 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(
+        .target(
             name: "Sansuu",
-            path: "./Products/Sansuu.xcframework"
+            path: "./Sansuu"
         )
     ]
 )
